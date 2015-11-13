@@ -1,0 +1,2 @@
+#!/bin/bash
+docker build --rm -f `pwd -P`/jenkins.dockerfile -t foogaro/jenkins `pwd -P`
