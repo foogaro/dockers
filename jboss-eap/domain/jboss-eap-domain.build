@@ -1,0 +1,3 @@
+#!/bin/bash
+docker build --rm -f `pwd -P`/jboss-eap-domain.dockerfile -t foogaro/jboss-eap-domain:6.4.4 `pwd -P`
+docker build --rm -f `pwd -P`/jboss-eap-domain.dockerfile -t foogaro/jboss-eap-domain:latest `pwd -P`

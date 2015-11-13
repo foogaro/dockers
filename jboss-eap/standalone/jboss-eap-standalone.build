@@ -1,0 +1,3 @@
+#!/bin/bash
+docker build --rm -f `pwd -P`/jboss-eap-standalone.dockerfile -t foogaro/jboss-eap-standalone:6.4.4 `pwd -P`
+docker build --rm -f `pwd -P`/jboss-eap-standalone.dockerfile -t foogaro/jboss-eap-standalone:latest `pwd -P`
