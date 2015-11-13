@@ -1,0 +1,3 @@
+#!/bin/bash
+docker build --rm -f `pwd -P`/maven.dockerfile -t foogaro/maven:3.3.3 `pwd -P`
+docker build --rm -f `pwd -P`/maven.dockerfile -t foogaro/maven:latest `pwd -P`
