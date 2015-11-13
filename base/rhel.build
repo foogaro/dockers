@@ -1,0 +1,2 @@
+#!/bin/bash
+docker build --rm -f `pwd -P`/rhel.dockerfile -t foogaro/rhel:7.1 `pwd -P`

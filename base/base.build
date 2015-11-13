@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ -z ${1+x} ]; then
+  echo "You need to specofy a Dockerfile";
+else
+  docker build --rm -f `pwd -P`/$1 -t foogaro/base `pwd -P`
+fi
+
