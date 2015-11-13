@@ -1,0 +1,3 @@
+#!/bin/bash
+docker build --rm -f `pwd -P`/jboss-dv.dockerfile -t foogaro/jboss-dv:6.2.0 `pwd -P`
+docker build --rm -f `pwd -P`/jboss-dv.dockerfile -t foogaro/jboss-dv:latest `pwd -P`
